@@ -1,0 +1,1648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38123B10E8AA6A343193B8A6 /* libPods-ZYLiveFrameworkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1198B93FBC09625EC1166F41 /* libPods-ZYLiveFrameworkUITests.a */; };
+		4F5F6AFF329E885693661CDB /* libPods-ZYLiveFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1452A04B20B04A6F50DD94 /* libPods-ZYLiveFramework.a */; };
+		BF2BEF11222C3CCA007DE658 /* avatarBig.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEED9222C3CCA007DE658 /* avatarBig.png */; };
+		BF2BEF12222C3CCA007DE658 /* avatarBig2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDA222C3CCA007DE658 /* avatarBig2.png */; };
+		BF2BEF13222C3CCA007DE658 /* avatarSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDB222C3CCA007DE658 /* avatarSmall.png */; };
+		BF2BEF14222C3CCA007DE658 /* avatarSmall2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDC222C3CCA007DE658 /* avatarSmall2.png */; };
+		BF2BEF15222C3CCA007DE658 /* gift0.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDD222C3CCA007DE658 /* gift0.png */; };
+		BF2BEF16222C3CCA007DE658 /* gift1.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDE222C3CCA007DE658 /* gift1.png */; };
+		BF2BEF17222C3CCA007DE658 /* gift2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEDF222C3CCA007DE658 /* gift2.png */; };
+		BF2BEF18222C3CCA007DE658 /* gift3.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE0222C3CCA007DE658 /* gift3.png */; };
+		BF2BEF19222C3CCA007DE658 /* gift4.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE1222C3CCA007DE658 /* gift4.png */; };
+		BF2BEF1A222C3CCA007DE658 /* gift5.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE2222C3CCA007DE658 /* gift5.png */; };
+		BF2BEF1B222C3CCA007DE658 /* gift6.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE3222C3CCA007DE658 /* gift6.png */; };
+		BF2BEF1C222C3CCA007DE658 /* gift7.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE4222C3CCA007DE658 /* gift7.png */; };
+		BF2BEF1D222C3CCA007DE658 /* gift8.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE5222C3CCA007DE658 /* gift8.png */; };
+		BF2BEF1E222C3CCA007DE658 /* ic_blueheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE6222C3CCA007DE658 /* ic_blueheart@2x.png */; };
+		BF2BEF1F222C3CCA007DE658 /* ic_blueheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE7222C3CCA007DE658 /* ic_blueheart@3x.png */; };
+		BF2BEF20222C3CCA007DE658 /* ic_chat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE8222C3CCA007DE658 /* ic_chat@2x.png */; };
+		BF2BEF21222C3CCA007DE658 /* ic_chat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEE9222C3CCA007DE658 /* ic_chat@3x.png */; };
+		BF2BEF22222C3CCA007DE658 /* ic_chat_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEEA222C3CCA007DE658 /* ic_chat_press@2x.png */; };
+		BF2BEF23222C3CCA007DE658 /* ic_chat_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEEB222C3CCA007DE658 /* ic_chat_press@3x.png */; };
+		BF2BEF24222C3CCA007DE658 /* ic_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEEC222C3CCA007DE658 /* ic_close@2x.png */; };
+		BF2BEF25222C3CCA007DE658 /* ic_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEED222C3CCA007DE658 /* ic_close@3x.png */; };
+		BF2BEF26222C3CCA007DE658 /* ic_close_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEEE222C3CCA007DE658 /* ic_close_press@2x.png */; };
+		BF2BEF27222C3CCA007DE658 /* ic_close_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEEF222C3CCA007DE658 /* ic_close_press@3x.png */; };
+		BF2BEF28222C3CCA007DE658 /* ic_gift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF0222C3CCA007DE658 /* ic_gift@2x.png */; };
+		BF2BEF29222C3CCA007DE658 /* ic_gift@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF1222C3CCA007DE658 /* ic_gift@3x.png */; };
+		BF2BEF2A222C3CCA007DE658 /* ic_gift_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF2222C3CCA007DE658 /* ic_gift_press@2x.png */; };
+		BF2BEF2B222C3CCA007DE658 /* ic_gift_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF3222C3CCA007DE658 /* ic_gift_press@3x.png */; };
+		BF2BEF2C222C3CCA007DE658 /* ic_greenheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF4222C3CCA007DE658 /* ic_greenheart@2x.png */; };
+		BF2BEF2D222C3CCA007DE658 /* ic_greenheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF5222C3CCA007DE658 /* ic_greenheart@3x.png */; };
+		BF2BEF2E222C3CCA007DE658 /* ic_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF6222C3CCA007DE658 /* ic_location@2x.png */; };
+		BF2BEF2F222C3CCA007DE658 /* ic_location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF7222C3CCA007DE658 /* ic_location@3x.png */; };
+		BF2BEF30222C3CCA007DE658 /* ic_orangeheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF8222C3CCA007DE658 /* ic_orangeheart@2x.png */; };
+		BF2BEF31222C3CCA007DE658 /* ic_orangeheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEF9222C3CCA007DE658 /* ic_orangeheart@3x.png */; };
+		BF2BEF32222C3CCA007DE658 /* ic_pinkheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFA222C3CCA007DE658 /* ic_pinkheart@2x.png */; };
+		BF2BEF33222C3CCA007DE658 /* ic_pinkheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFB222C3CCA007DE658 /* ic_pinkheart@3x.png */; };
+		BF2BEF34222C3CCA007DE658 /* ic_purpleheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFC222C3CCA007DE658 /* ic_purpleheart@2x.png */; };
+		BF2BEF35222C3CCA007DE658 /* ic_purpleheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFD222C3CCA007DE658 /* ic_purpleheart@3x.png */; };
+		BF2BEF36222C3CCA007DE658 /* ic_share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFE222C3CCA007DE658 /* ic_share@2x.png */; };
+		BF2BEF37222C3CCA007DE658 /* ic_share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEEFF222C3CCA007DE658 /* ic_share@3x.png */; };
+		BF2BEF38222C3CCA007DE658 /* ic_share_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF00222C3CCA007DE658 /* ic_share_press@2x.png */; };
+		BF2BEF39222C3CCA007DE658 /* ic_share_press@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF01222C3CCA007DE658 /* ic_share_press@3x.png */; };
+		BF2BEF3A222C3CCA007DE658 /* ic_shooting_star_barrage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF02222C3CCA007DE658 /* ic_shooting_star_barrage@2x.png */; };
+		BF2BEF3B222C3CCA007DE658 /* ic_shooting_star_barrage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF03222C3CCA007DE658 /* ic_shooting_star_barrage@3x.png */; };
+		BF2BEF3C222C3CCA007DE658 /* ic_yellowheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF04222C3CCA007DE658 /* ic_yellowheart@2x.png */; };
+		BF2BEF3D222C3CCA007DE658 /* ic_yellowheart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF05222C3CCA007DE658 /* ic_yellowheart@3x.png */; };
+		BF2BEF3E222C3CCA007DE658 /* logic_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF06222C3CCA007DE658 /* logic_icon.png */; };
+		BF2BEF3F222C3CCA007DE658 /* myAvatarBig.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF07222C3CCA007DE658 /* myAvatarBig.png */; };
+		BF2BEF40222C3CCA007DE658 /* myAvatarSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF08222C3CCA007DE658 /* myAvatarSmall.png */; };
+		BF2BEF41222C3CCA007DE658 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF09222C3CCA007DE658 /* qq.png */; };
+		BF2BEF42222C3CCA007DE658 /* sina.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF0A222C3CCA007DE658 /* sina.png */; };
+		BF2BEF43222C3CCA007DE658 /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEF0B222C3CCA007DE658 /* wechat.png */; };
+		BF2BEF44222C3CCA007DE658 /* ZYServiceEventUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF10222C3CCA007DE658 /* ZYServiceEventUntil.m */; };
+		BF2BEF48222C3CE1007DE658 /* ZYDaoEventUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF47222C3CE1007DE658 /* ZYDaoEventUntil.m */; };
+		BF2BEF9D222C3CF7007DE658 /* ZYChannelProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF4D222C3CF7007DE658 /* ZYChannelProfile.m */; };
+		BF2BEF9E222C3CF7007DE658 /* ZYHomeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF50222C3CF7007DE658 /* ZYHomeAdapter.m */; };
+		BF2BEF9F222C3CF7007DE658 /* ZYHomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF52222C3CF7007DE658 /* ZYHomeInteractor.m */; };
+		BF2BEFA0222C3CF7007DE658 /* ZYHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF54222C3CF7007DE658 /* ZYHomePresenter.m */; };
+		BF2BEFA1222C3CF7007DE658 /* ZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF57222C3CF7007DE658 /* ZYHomeViewController.m */; };
+		BF2BEFA2222C3CF7007DE658 /* ZYHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF5A222C3CF7007DE658 /* ZYHomeTableViewCell.m */; };
+		BF2BEFA3222C3CF7007DE658 /* ZYHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF5C222C3CF7007DE658 /* ZYHomeView.m */; };
+		BF2BEFA4222C3CF7007DE658 /* ZYLiveStreamChannelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF60222C3CF7007DE658 /* ZYLiveStreamChannelMessage.m */; };
+		BF2BEFA5222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF62222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.m */; };
+		BF2BEFA6222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF64222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.m */; };
+		BF2BEFA7222C3CF7007DE658 /* ZYLiveStreamAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF67222C3CF7007DE658 /* ZYLiveStreamAdapter.m */; };
+		BF2BEFA8222C3CF7007DE658 /* ZYLiveStreamInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF69222C3CF7007DE658 /* ZYLiveStreamInteractor.m */; };
+		BF2BEFA9222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF6B222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.m */; };
+		BF2BEFAA222C3CF7007DE658 /* ZYLiveStreamPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF6D222C3CF7007DE658 /* ZYLiveStreamPresenter.m */; };
+		BF2BEFAB222C3CF7007DE658 /* ZYLiveStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF70222C3CF7007DE658 /* ZYLiveStreamViewController.m */; };
+		BF2BEFAC222C3CF7007DE658 /* ZYLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF72222C3CF7007DE658 /* ZYLiveViewController.m */; };
+		BF2BEFAD222C3CF7007DE658 /* ZYLiveStreamActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF76222C3CF7007DE658 /* ZYLiveStreamActionView.m */; };
+		BF2BEFAE222C3CF7007DE658 /* ZYLiveStreamAvatarListView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF79222C3CF7007DE658 /* ZYLiveStreamAvatarListView.m */; };
+		BF2BEFAF222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF7C222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.m */; };
+		BF2BEFB0222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF7E222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.m */; };
+		BF2BEFB1222C3CF7007DE658 /* ZYLiveStreamGiftBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF81222C3CF7007DE658 /* ZYLiveStreamGiftBanner.m */; };
+		BF2BEFB2222C3CF7007DE658 /* ZYLiveStreamGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF83222C3CF7007DE658 /* ZYLiveStreamGiftView.m */; };
+		BF2BEFB3222C3CF7007DE658 /* ZYLiveStreamHeartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF86222C3CF7007DE658 /* ZYLiveStreamHeartView.m */; };
+		BF2BEFB4222C3CF7007DE658 /* ZYLiveStreamInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF89222C3CF7007DE658 /* ZYLiveStreamInfoView.m */; };
+		BF2BEFB5222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF8C222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.m */; };
+		BF2BEFB6222C3CF7007DE658 /* ZYLiveStreamInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF8E222C3CF7007DE658 /* ZYLiveStreamInputView.m */; };
+		BF2BEFB7222C3CF7007DE658 /* ZYLiveStreamTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF90222C3CF7007DE658 /* ZYLiveStreamTextView.m */; };
+		BF2BEFB8222C3CF7007DE658 /* ZYLiveStreamTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF93222C3CF7007DE658 /* ZYLiveStreamTableView.m */; };
+		BF2BEFB9222C3CF7007DE658 /* ZYLiveStreamShareHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF96222C3CF7007DE658 /* ZYLiveStreamShareHolder.m */; };
+		BF2BEFBA222C3CF7007DE658 /* ZYLiveStreamShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF98222C3CF7007DE658 /* ZYLiveStreamShareView.m */; };
+		BF2BEFBB222C3CF7007DE658 /* ZYLiveStreamView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEF9A222C3CF7007DE658 /* ZYLiveStreamView.m */; };
+		BF2BF01A222C3D25007DE658 /* ZYBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFC0222C3D25007DE658 /* ZYBaseAdapter.m */; };
+		BF2BF01B222C3D25007DE658 /* ZYBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFC2222C3D25007DE658 /* ZYBaseCollectionView.m */; };
+		BF2BF01C222C3D25007DE658 /* ZYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFC4222C3D25007DE658 /* ZYBaseNavigationController.m */; };
+		BF2BF01D222C3D25007DE658 /* ZYBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFC6222C3D25007DE658 /* ZYBasePresenter.m */; };
+		BF2BF01E222C3D25007DE658 /* ZYBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFC8222C3D25007DE658 /* ZYBaseTableView.m */; };
+		BF2BF01F222C3D25007DE658 /* ZYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFCA222C3D25007DE658 /* ZYBaseViewController.m */; };
+		BF2BF020222C3D25007DE658 /* CDDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFCD222C3D25007DE658 /* CDDContext.m */; };
+		BF2BF021222C3D25007DE658 /* NSObject+CDD.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFCF222C3D25007DE658 /* NSObject+CDD.m */; };
+		BF2BF022222C3D25007DE658 /* UIColor+App.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFD6222C3D25007DE658 /* UIColor+App.m */; };
+		BF2BF023222C3D25007DE658 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFD8222C3D25007DE658 /* UIColor+Hex.m */; };
+		BF2BF024222C3D25007DE658 /* UIFont+App.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFDA222C3D25007DE658 /* UIFont+App.m */; };
+		BF2BF025222C3D25007DE658 /* UIImageEX.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFDC222C3D25007DE658 /* UIImageEX.m */; };
+		BF2BF026222C3D25007DE658 /* UIImageScale.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFDE222C3D25007DE658 /* UIImageScale.m */; };
+		BF2BF027222C3D25007DE658 /* UIView+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFE0222C3D25007DE658 /* UIView+Display.m */; };
+		BF2BF028222C3D25007DE658 /* UIView+EFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFE2222C3D25007DE658 /* UIView+EFrame.m */; };
+		BF2BF029222C3D25007DE658 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF2BEFE4222C3D25007DE658 /* Info.plist */; };
+		BF2BF02A222C3D25007DE658 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFE6222C3D25007DE658 /* MASCompositeConstraint.m */; };
+		BF2BF02B222C3D25007DE658 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFE9222C3D25007DE658 /* MASConstraint.m */; };
+		BF2BF02C222C3D25007DE658 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFEB222C3D25007DE658 /* MASConstraintMaker.m */; };
+		BF2BF02D222C3D25007DE658 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFED222C3D25007DE658 /* MASLayoutConstraint.m */; };
+		BF2BF02E222C3D25007DE658 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFF1222C3D25007DE658 /* MASViewAttribute.m */; };
+		BF2BF02F222C3D25007DE658 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFF3222C3D25007DE658 /* MASViewConstraint.m */; };
+		BF2BF030222C3D25007DE658 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFF5222C3D25007DE658 /* NSArray+MASAdditions.m */; };
+		BF2BF031222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFF8222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BF2BF032222C3D25007DE658 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFFA222C3D25007DE658 /* View+MASAdditions.m */; };
+		BF2BF033222C3D25007DE658 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BEFFD222C3D25007DE658 /* ViewController+MASAdditions.m */; };
+		BF2BF034222C3D25007DE658 /* CGPointExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF000222C3D25007DE658 /* CGPointExtension.m */; };
+		BF2BF035222C3D25007DE658 /* UIBezierPath+Interpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF002222C3D25007DE658 /* UIBezierPath+Interpolation.m */; };
+		BF2BF036222C3D25007DE658 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF005222C3D25007DE658 /* NSMutableAttributedString+TY.m */; };
+		BF2BF037222C3D25007DE658 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF007222C3D25007DE658 /* TYAttributedLabel.m */; };
+		BF2BF038222C3D25007DE658 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF009222C3D25007DE658 /* TYDrawStorage.m */; };
+		BF2BF039222C3D25007DE658 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF00B222C3D25007DE658 /* TYImageCache.m */; };
+		BF2BF03A222C3D25007DE658 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF00D222C3D25007DE658 /* TYImageStorage.m */; };
+		BF2BF03B222C3D25007DE658 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF00F222C3D25007DE658 /* TYLinkTextStorage.m */; };
+		BF2BF03C222C3D25007DE658 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF010222C3D25007DE658 /* TYTextContainer+Extended.m */; };
+		BF2BF03D222C3D25007DE658 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF012222C3D25007DE658 /* TYTextContainer.m */; };
+		BF2BF03E222C3D25007DE658 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF014222C3D25007DE658 /* TYTextStorage.m */; };
+		BF2BF03F222C3D25007DE658 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2BF017222C3D25007DE658 /* TYViewStorage.m */; };
+		BF581E5C222C33DF00B11C52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF581E5B222C33DF00B11C52 /* AppDelegate.m */; };
+		BF581E5F222C33DF00B11C52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF581E5E222C33DF00B11C52 /* ViewController.m */; };
+		BF581E62222C33DF00B11C52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF581E60222C33DF00B11C52 /* Main.storyboard */; };
+		BF581E67222C33E000B11C52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF581E65222C33E000B11C52 /* LaunchScreen.storyboard */; };
+		BF581E6A222C33E000B11C52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF581E69222C33E000B11C52 /* main.m */; };
+		BF581E74222C33E000B11C52 /* ZYLiveFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF581E73222C33E000B11C52 /* ZYLiveFrameworkTests.m */; };
+		BF581E7F222C33E000B11C52 /* ZYLiveFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF581E7E222C33E000B11C52 /* ZYLiveFrameworkUITests.m */; };
+		BF581E95222C35C700B11C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF581E8F222C35C600B11C52 /* Assets.xcassets */; };
+		D8AD4697FF3AF45612192C3E /* libPods-ZYLiveFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F98740CAFE5296F2418366A /* libPods-ZYLiveFrameworkTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF581E70222C33E000B11C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF581E4F222C33DF00B11C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF581E56222C33DF00B11C52;
+			remoteInfo = ZYLiveFramework;
+		};
+		BF581E7B222C33E000B11C52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF581E4F222C33DF00B11C52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF581E56222C33DF00B11C52;
+			remoteInfo = ZYLiveFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D1452A04B20B04A6F50DD94 /* libPods-ZYLiveFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYLiveFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F98740CAFE5296F2418366A /* libPods-ZYLiveFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYLiveFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1198B93FBC09625EC1166F41 /* libPods-ZYLiveFrameworkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYLiveFrameworkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FFF76A996AB8DA7EDAD0A8 /* Pods-ZYLiveFrameworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFrameworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZYLiveFrameworkUITests/Pods-ZYLiveFrameworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79432CC3C4CFFD515069F7A9 /* Pods-ZYLiveFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFramework.release.xcconfig"; path = "Target Support Files/Pods-ZYLiveFramework/Pods-ZYLiveFramework.release.xcconfig"; sourceTree = "<group>"; };
+		7FCA8EE8554180DCB096C8CE /* Pods-ZYLiveFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-ZYLiveFrameworkTests/Pods-ZYLiveFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A46E75DFD4D06445DB762A /* Pods-ZYLiveFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-ZYLiveFrameworkTests/Pods-ZYLiveFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBA7ADB6C50942A358C7656B /* Pods-ZYLiveFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFramework.debug.xcconfig"; path = "Target Support Files/Pods-ZYLiveFramework/Pods-ZYLiveFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2BEED9222C3CCA007DE658 /* avatarBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarBig.png; sourceTree = "<group>"; };
+		BF2BEEDA222C3CCA007DE658 /* avatarBig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarBig2.png; sourceTree = "<group>"; };
+		BF2BEEDB222C3CCA007DE658 /* avatarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarSmall.png; sourceTree = "<group>"; };
+		BF2BEEDC222C3CCA007DE658 /* avatarSmall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatarSmall2.png; sourceTree = "<group>"; };
+		BF2BEEDD222C3CCA007DE658 /* gift0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift0.png; sourceTree = "<group>"; };
+		BF2BEEDE222C3CCA007DE658 /* gift1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift1.png; sourceTree = "<group>"; };
+		BF2BEEDF222C3CCA007DE658 /* gift2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift2.png; sourceTree = "<group>"; };
+		BF2BEEE0222C3CCA007DE658 /* gift3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift3.png; sourceTree = "<group>"; };
+		BF2BEEE1222C3CCA007DE658 /* gift4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift4.png; sourceTree = "<group>"; };
+		BF2BEEE2222C3CCA007DE658 /* gift5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift5.png; sourceTree = "<group>"; };
+		BF2BEEE3222C3CCA007DE658 /* gift6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift6.png; sourceTree = "<group>"; };
+		BF2BEEE4222C3CCA007DE658 /* gift7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift7.png; sourceTree = "<group>"; };
+		BF2BEEE5222C3CCA007DE658 /* gift8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift8.png; sourceTree = "<group>"; };
+		BF2BEEE6222C3CCA007DE658 /* ic_blueheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_blueheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEEE7222C3CCA007DE658 /* ic_blueheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_blueheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEEE8222C3CCA007DE658 /* ic_chat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat@2x.png"; sourceTree = "<group>"; };
+		BF2BEEE9222C3CCA007DE658 /* ic_chat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat@3x.png"; sourceTree = "<group>"; };
+		BF2BEEEA222C3CCA007DE658 /* ic_chat_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_press@2x.png"; sourceTree = "<group>"; };
+		BF2BEEEB222C3CCA007DE658 /* ic_chat_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_press@3x.png"; sourceTree = "<group>"; };
+		BF2BEEEC222C3CCA007DE658 /* ic_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close@2x.png"; sourceTree = "<group>"; };
+		BF2BEEED222C3CCA007DE658 /* ic_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close@3x.png"; sourceTree = "<group>"; };
+		BF2BEEEE222C3CCA007DE658 /* ic_close_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close_press@2x.png"; sourceTree = "<group>"; };
+		BF2BEEEF222C3CCA007DE658 /* ic_close_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_close_press@3x.png"; sourceTree = "<group>"; };
+		BF2BEEF0222C3CCA007DE658 /* ic_gift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_gift@2x.png"; sourceTree = "<group>"; };
+		BF2BEEF1222C3CCA007DE658 /* ic_gift@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_gift@3x.png"; sourceTree = "<group>"; };
+		BF2BEEF2222C3CCA007DE658 /* ic_gift_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_gift_press@2x.png"; sourceTree = "<group>"; };
+		BF2BEEF3222C3CCA007DE658 /* ic_gift_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_gift_press@3x.png"; sourceTree = "<group>"; };
+		BF2BEEF4222C3CCA007DE658 /* ic_greenheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_greenheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEEF5222C3CCA007DE658 /* ic_greenheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_greenheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEEF6222C3CCA007DE658 /* ic_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_location@2x.png"; sourceTree = "<group>"; };
+		BF2BEEF7222C3CCA007DE658 /* ic_location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_location@3x.png"; sourceTree = "<group>"; };
+		BF2BEEF8222C3CCA007DE658 /* ic_orangeheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_orangeheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEEF9222C3CCA007DE658 /* ic_orangeheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_orangeheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEEFA222C3CCA007DE658 /* ic_pinkheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pinkheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEEFB222C3CCA007DE658 /* ic_pinkheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_pinkheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEEFC222C3CCA007DE658 /* ic_purpleheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_purpleheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEEFD222C3CCA007DE658 /* ic_purpleheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_purpleheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEEFE222C3CCA007DE658 /* ic_share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share@2x.png"; sourceTree = "<group>"; };
+		BF2BEEFF222C3CCA007DE658 /* ic_share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share@3x.png"; sourceTree = "<group>"; };
+		BF2BEF00222C3CCA007DE658 /* ic_share_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share_press@2x.png"; sourceTree = "<group>"; };
+		BF2BEF01222C3CCA007DE658 /* ic_share_press@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_share_press@3x.png"; sourceTree = "<group>"; };
+		BF2BEF02222C3CCA007DE658 /* ic_shooting_star_barrage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_shooting_star_barrage@2x.png"; sourceTree = "<group>"; };
+		BF2BEF03222C3CCA007DE658 /* ic_shooting_star_barrage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_shooting_star_barrage@3x.png"; sourceTree = "<group>"; };
+		BF2BEF04222C3CCA007DE658 /* ic_yellowheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_yellowheart@2x.png"; sourceTree = "<group>"; };
+		BF2BEF05222C3CCA007DE658 /* ic_yellowheart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_yellowheart@3x.png"; sourceTree = "<group>"; };
+		BF2BEF06222C3CCA007DE658 /* logic_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logic_icon.png; sourceTree = "<group>"; };
+		BF2BEF07222C3CCA007DE658 /* myAvatarBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myAvatarBig.png; sourceTree = "<group>"; };
+		BF2BEF08222C3CCA007DE658 /* myAvatarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myAvatarSmall.png; sourceTree = "<group>"; };
+		BF2BEF09222C3CCA007DE658 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		BF2BEF0A222C3CCA007DE658 /* sina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sina.png; sourceTree = "<group>"; };
+		BF2BEF0B222C3CCA007DE658 /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = "<group>"; };
+		BF2BEF0F222C3CCA007DE658 /* ZYServiceEventUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYServiceEventUntil.h; sourceTree = "<group>"; };
+		BF2BEF10222C3CCA007DE658 /* ZYServiceEventUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYServiceEventUntil.m; sourceTree = "<group>"; };
+		BF2BEF46222C3CE1007DE658 /* ZYDaoEventUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDaoEventUntil.h; sourceTree = "<group>"; };
+		BF2BEF47222C3CE1007DE658 /* ZYDaoEventUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDaoEventUntil.m; sourceTree = "<group>"; };
+		BF2BEF4C222C3CF7007DE658 /* ZYChannelProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYChannelProfile.h; sourceTree = "<group>"; };
+		BF2BEF4D222C3CF7007DE658 /* ZYChannelProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYChannelProfile.m; sourceTree = "<group>"; };
+		BF2BEF4F222C3CF7007DE658 /* ZYHomeAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeAdapter.h; sourceTree = "<group>"; };
+		BF2BEF50222C3CF7007DE658 /* ZYHomeAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeAdapter.m; sourceTree = "<group>"; };
+		BF2BEF51222C3CF7007DE658 /* ZYHomeInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeInteractor.h; sourceTree = "<group>"; };
+		BF2BEF52222C3CF7007DE658 /* ZYHomeInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeInteractor.m; sourceTree = "<group>"; };
+		BF2BEF53222C3CF7007DE658 /* ZYHomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomePresenter.h; sourceTree = "<group>"; };
+		BF2BEF54222C3CF7007DE658 /* ZYHomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomePresenter.m; sourceTree = "<group>"; };
+		BF2BEF56222C3CF7007DE658 /* ZYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeViewController.h; sourceTree = "<group>"; };
+		BF2BEF57222C3CF7007DE658 /* ZYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeViewController.m; sourceTree = "<group>"; };
+		BF2BEF59222C3CF7007DE658 /* ZYHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeTableViewCell.h; sourceTree = "<group>"; };
+		BF2BEF5A222C3CF7007DE658 /* ZYHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeTableViewCell.m; sourceTree = "<group>"; };
+		BF2BEF5B222C3CF7007DE658 /* ZYHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeView.h; sourceTree = "<group>"; };
+		BF2BEF5C222C3CF7007DE658 /* ZYHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeView.m; sourceTree = "<group>"; };
+		BF2BEF5F222C3CF7007DE658 /* ZYLiveStreamChannelMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamChannelMessage.h; sourceTree = "<group>"; };
+		BF2BEF60222C3CF7007DE658 /* ZYLiveStreamChannelMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamChannelMessage.m; sourceTree = "<group>"; };
+		BF2BEF61222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamGiftChannelMessage.h; sourceTree = "<group>"; };
+		BF2BEF62222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamGiftChannelMessage.m; sourceTree = "<group>"; };
+		BF2BEF63222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamLikeChannelMessage.h; sourceTree = "<group>"; };
+		BF2BEF64222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamLikeChannelMessage.m; sourceTree = "<group>"; };
+		BF2BEF66222C3CF7007DE658 /* ZYLiveStreamAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamAdapter.h; sourceTree = "<group>"; };
+		BF2BEF67222C3CF7007DE658 /* ZYLiveStreamAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamAdapter.m; sourceTree = "<group>"; };
+		BF2BEF68222C3CF7007DE658 /* ZYLiveStreamInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamInteractor.h; sourceTree = "<group>"; };
+		BF2BEF69222C3CF7007DE658 /* ZYLiveStreamInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamInteractor.m; sourceTree = "<group>"; };
+		BF2BEF6A222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYLiveStreamPresenter+Gift.h"; sourceTree = "<group>"; };
+		BF2BEF6B222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ZYLiveStreamPresenter+Gift.m"; sourceTree = "<group>"; };
+		BF2BEF6C222C3CF7007DE658 /* ZYLiveStreamPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamPresenter.h; sourceTree = "<group>"; };
+		BF2BEF6D222C3CF7007DE658 /* ZYLiveStreamPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamPresenter.m; sourceTree = "<group>"; };
+		BF2BEF6F222C3CF7007DE658 /* ZYLiveStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamViewController.h; sourceTree = "<group>"; };
+		BF2BEF70222C3CF7007DE658 /* ZYLiveStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamViewController.m; sourceTree = "<group>"; };
+		BF2BEF71222C3CF7007DE658 /* ZYLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveViewController.h; sourceTree = "<group>"; };
+		BF2BEF72222C3CF7007DE658 /* ZYLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveViewController.m; sourceTree = "<group>"; };
+		BF2BEF75222C3CF7007DE658 /* ZYLiveStreamActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamActionView.h; sourceTree = "<group>"; };
+		BF2BEF76222C3CF7007DE658 /* ZYLiveStreamActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamActionView.m; sourceTree = "<group>"; };
+		BF2BEF78222C3CF7007DE658 /* ZYLiveStreamAvatarListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamAvatarListView.h; sourceTree = "<group>"; };
+		BF2BEF79222C3CF7007DE658 /* ZYLiveStreamAvatarListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamAvatarListView.m; sourceTree = "<group>"; };
+		BF2BEF7B222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamGiftSelectionHolder.h; sourceTree = "<group>"; };
+		BF2BEF7C222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamGiftSelectionHolder.m; sourceTree = "<group>"; };
+		BF2BEF7D222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamGiftSelectionView.h; sourceTree = "<group>"; };
+		BF2BEF7E222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamGiftSelectionView.m; sourceTree = "<group>"; };
+		BF2BEF80222C3CF7007DE658 /* ZYLiveStreamGiftBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamGiftBanner.h; sourceTree = "<group>"; };
+		BF2BEF81222C3CF7007DE658 /* ZYLiveStreamGiftBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamGiftBanner.m; sourceTree = "<group>"; };
+		BF2BEF82222C3CF7007DE658 /* ZYLiveStreamGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamGiftView.h; sourceTree = "<group>"; };
+		BF2BEF83222C3CF7007DE658 /* ZYLiveStreamGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamGiftView.m; sourceTree = "<group>"; };
+		BF2BEF85222C3CF7007DE658 /* ZYLiveStreamHeartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamHeartView.h; sourceTree = "<group>"; };
+		BF2BEF86222C3CF7007DE658 /* ZYLiveStreamHeartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamHeartView.m; sourceTree = "<group>"; };
+		BF2BEF88222C3CF7007DE658 /* ZYLiveStreamInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamInfoView.h; sourceTree = "<group>"; };
+		BF2BEF89222C3CF7007DE658 /* ZYLiveStreamInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamInfoView.m; sourceTree = "<group>"; };
+		BF2BEF8B222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamBulletSwitch.h; sourceTree = "<group>"; };
+		BF2BEF8C222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamBulletSwitch.m; sourceTree = "<group>"; };
+		BF2BEF8D222C3CF7007DE658 /* ZYLiveStreamInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamInputView.h; sourceTree = "<group>"; };
+		BF2BEF8E222C3CF7007DE658 /* ZYLiveStreamInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamInputView.m; sourceTree = "<group>"; };
+		BF2BEF8F222C3CF7007DE658 /* ZYLiveStreamTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamTextView.h; sourceTree = "<group>"; };
+		BF2BEF90222C3CF7007DE658 /* ZYLiveStreamTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamTextView.m; sourceTree = "<group>"; };
+		BF2BEF92222C3CF7007DE658 /* ZYLiveStreamTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamTableView.h; sourceTree = "<group>"; };
+		BF2BEF93222C3CF7007DE658 /* ZYLiveStreamTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamTableView.m; sourceTree = "<group>"; };
+		BF2BEF95222C3CF7007DE658 /* ZYLiveStreamShareHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamShareHolder.h; sourceTree = "<group>"; };
+		BF2BEF96222C3CF7007DE658 /* ZYLiveStreamShareHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamShareHolder.m; sourceTree = "<group>"; };
+		BF2BEF97222C3CF7007DE658 /* ZYLiveStreamShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamShareView.h; sourceTree = "<group>"; };
+		BF2BEF98222C3CF7007DE658 /* ZYLiveStreamShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamShareView.m; sourceTree = "<group>"; };
+		BF2BEF99222C3CF7007DE658 /* ZYLiveStreamView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLiveStreamView.h; sourceTree = "<group>"; };
+		BF2BEF9A222C3CF7007DE658 /* ZYLiveStreamView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLiveStreamView.m; sourceTree = "<group>"; };
+		BF2BEFBD222C3D25007DE658 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		BF2BEFBF222C3D25007DE658 /* ZYBaseAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseAdapter.h; sourceTree = "<group>"; };
+		BF2BEFC0222C3D25007DE658 /* ZYBaseAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseAdapter.m; sourceTree = "<group>"; };
+		BF2BEFC1222C3D25007DE658 /* ZYBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseCollectionView.h; sourceTree = "<group>"; };
+		BF2BEFC2222C3D25007DE658 /* ZYBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseCollectionView.m; sourceTree = "<group>"; };
+		BF2BEFC3222C3D25007DE658 /* ZYBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseNavigationController.h; sourceTree = "<group>"; };
+		BF2BEFC4222C3D25007DE658 /* ZYBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseNavigationController.m; sourceTree = "<group>"; };
+		BF2BEFC5222C3D25007DE658 /* ZYBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBasePresenter.h; sourceTree = "<group>"; };
+		BF2BEFC6222C3D25007DE658 /* ZYBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBasePresenter.m; sourceTree = "<group>"; };
+		BF2BEFC7222C3D25007DE658 /* ZYBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseTableView.h; sourceTree = "<group>"; };
+		BF2BEFC8222C3D25007DE658 /* ZYBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseTableView.m; sourceTree = "<group>"; };
+		BF2BEFC9222C3D25007DE658 /* ZYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseViewController.h; sourceTree = "<group>"; };
+		BF2BEFCA222C3D25007DE658 /* ZYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseViewController.m; sourceTree = "<group>"; };
+		BF2BEFCC222C3D25007DE658 /* CDDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDDContext.h; sourceTree = "<group>"; };
+		BF2BEFCD222C3D25007DE658 /* CDDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDDContext.m; sourceTree = "<group>"; };
+		BF2BEFCE222C3D25007DE658 /* NSObject+CDD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CDD.h"; sourceTree = "<group>"; };
+		BF2BEFCF222C3D25007DE658 /* NSObject+CDD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CDD.m"; sourceTree = "<group>"; };
+		BF2BEFD0222C3D25007DE658 /* DBConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConst.h; sourceTree = "<group>"; };
+		BF2BEFD1222C3D25007DE658 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF2BEFD2222C3D25007DE658 /* SharedConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedConfig.h; sourceTree = "<group>"; };
+		BF2BEFD5222C3D25007DE658 /* UIColor+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+App.h"; sourceTree = "<group>"; };
+		BF2BEFD6222C3D25007DE658 /* UIColor+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+App.m"; sourceTree = "<group>"; };
+		BF2BEFD7222C3D25007DE658 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		BF2BEFD8222C3D25007DE658 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		BF2BEFD9222C3D25007DE658 /* UIFont+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+App.h"; sourceTree = "<group>"; };
+		BF2BEFDA222C3D25007DE658 /* UIFont+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+App.m"; sourceTree = "<group>"; };
+		BF2BEFDB222C3D25007DE658 /* UIImageEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEX.h; sourceTree = "<group>"; };
+		BF2BEFDC222C3D25007DE658 /* UIImageEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEX.m; sourceTree = "<group>"; };
+		BF2BEFDD222C3D25007DE658 /* UIImageScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageScale.h; sourceTree = "<group>"; };
+		BF2BEFDE222C3D25007DE658 /* UIImageScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageScale.m; sourceTree = "<group>"; };
+		BF2BEFDF222C3D25007DE658 /* UIView+Display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Display.h"; sourceTree = "<group>"; };
+		BF2BEFE0222C3D25007DE658 /* UIView+Display.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Display.m"; sourceTree = "<group>"; };
+		BF2BEFE1222C3D25007DE658 /* UIView+EFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EFrame.h"; sourceTree = "<group>"; };
+		BF2BEFE2222C3D25007DE658 /* UIView+EFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EFrame.m"; sourceTree = "<group>"; };
+		BF2BEFE4222C3D25007DE658 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2BEFE5222C3D25007DE658 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BF2BEFE6222C3D25007DE658 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BF2BEFE7222C3D25007DE658 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BF2BEFE8222C3D25007DE658 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BF2BEFE9222C3D25007DE658 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BF2BEFEA222C3D25007DE658 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BF2BEFEB222C3D25007DE658 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BF2BEFEC222C3D25007DE658 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BF2BEFED222C3D25007DE658 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BF2BEFEE222C3D25007DE658 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BF2BEFEF222C3D25007DE658 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BF2BEFF0222C3D25007DE658 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BF2BEFF1222C3D25007DE658 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BF2BEFF2222C3D25007DE658 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BF2BEFF3222C3D25007DE658 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BF2BEFF4222C3D25007DE658 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFF5222C3D25007DE658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BF2BEFF6222C3D25007DE658 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFF7222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFF8222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BF2BEFF9222C3D25007DE658 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFFA222C3D25007DE658 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BF2BEFFB222C3D25007DE658 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFFC222C3D25007DE658 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BF2BEFFD222C3D25007DE658 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BF2BEFFF222C3D25007DE658 /* CGPointExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPointExtension.h; sourceTree = "<group>"; };
+		BF2BF000222C3D25007DE658 /* CGPointExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPointExtension.m; sourceTree = "<group>"; };
+		BF2BF001222C3D25007DE658 /* UIBezierPath+Interpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Interpolation.h"; sourceTree = "<group>"; };
+		BF2BF002222C3D25007DE658 /* UIBezierPath+Interpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Interpolation.m"; sourceTree = "<group>"; };
+		BF2BF004222C3D25007DE658 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		BF2BF005222C3D25007DE658 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		BF2BF006222C3D25007DE658 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		BF2BF007222C3D25007DE658 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		BF2BF008222C3D25007DE658 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		BF2BF009222C3D25007DE658 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		BF2BF00A222C3D25007DE658 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		BF2BF00B222C3D25007DE658 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		BF2BF00C222C3D25007DE658 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		BF2BF00D222C3D25007DE658 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		BF2BF00E222C3D25007DE658 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		BF2BF00F222C3D25007DE658 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		BF2BF010222C3D25007DE658 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		BF2BF011222C3D25007DE658 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		BF2BF012222C3D25007DE658 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		BF2BF013222C3D25007DE658 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		BF2BF014222C3D25007DE658 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		BF2BF015222C3D25007DE658 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		BF2BF016222C3D25007DE658 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		BF2BF017222C3D25007DE658 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		BF2BF018222C3D25007DE658 /* SharedMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedMacro.h; sourceTree = "<group>"; };
+		BF581E57222C33DF00B11C52 /* ZYLiveFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYLiveFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF581E5A222C33DF00B11C52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF581E5B222C33DF00B11C52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF581E5D222C33DF00B11C52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF581E5E222C33DF00B11C52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF581E61222C33DF00B11C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF581E66222C33E000B11C52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF581E68222C33E000B11C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF581E69222C33E000B11C52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF581E6F222C33E000B11C52 /* ZYLiveFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLiveFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF581E73222C33E000B11C52 /* ZYLiveFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLiveFrameworkTests.m; sourceTree = "<group>"; };
+		BF581E75222C33E000B11C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF581E7A222C33E000B11C52 /* ZYLiveFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLiveFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF581E7E222C33E000B11C52 /* ZYLiveFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYLiveFrameworkUITests.m; sourceTree = "<group>"; };
+		BF581E80222C33E000B11C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF581E8F222C35C600B11C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E672C2422FEAE92B6740D6A0 /* Pods-ZYLiveFrameworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLiveFrameworkUITests.release.xcconfig"; path = "Target Support Files/Pods-ZYLiveFrameworkUITests/Pods-ZYLiveFrameworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF581E54222C33DF00B11C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F5F6AFF329E885693661CDB /* libPods-ZYLiveFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E6C222C33E000B11C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8AD4697FF3AF45612192C3E /* libPods-ZYLiveFrameworkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E77222C33E000B11C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38123B10E8AA6A343193B8A6 /* libPods-ZYLiveFrameworkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22759244D5BD7DE7613B8D84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA7ADB6C50942A358C7656B /* Pods-ZYLiveFramework.debug.xcconfig */,
+				79432CC3C4CFFD515069F7A9 /* Pods-ZYLiveFramework.release.xcconfig */,
+				7FCA8EE8554180DCB096C8CE /* Pods-ZYLiveFrameworkTests.debug.xcconfig */,
+				B6A46E75DFD4D06445DB762A /* Pods-ZYLiveFrameworkTests.release.xcconfig */,
+				75FFF76A996AB8DA7EDAD0A8 /* Pods-ZYLiveFrameworkUITests.debug.xcconfig */,
+				E672C2422FEAE92B6740D6A0 /* Pods-ZYLiveFrameworkUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C763D8542B000EAB96B7E4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D1452A04B20B04A6F50DD94 /* libPods-ZYLiveFramework.a */,
+				0F98740CAFE5296F2418366A /* libPods-ZYLiveFrameworkTests.a */,
+				1198B93FBC09625EC1166F41 /* libPods-ZYLiveFrameworkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2BEED7222C3CCA007DE658 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEED8222C3CCA007DE658 /* Images */,
+				BF2BEF0C222C3CCA007DE658 /* TableTemplate */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF2BEED8222C3CCA007DE658 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEED9222C3CCA007DE658 /* avatarBig.png */,
+				BF2BEEDA222C3CCA007DE658 /* avatarBig2.png */,
+				BF2BEEDB222C3CCA007DE658 /* avatarSmall.png */,
+				BF2BEEDC222C3CCA007DE658 /* avatarSmall2.png */,
+				BF2BEEDD222C3CCA007DE658 /* gift0.png */,
+				BF2BEEDE222C3CCA007DE658 /* gift1.png */,
+				BF2BEEDF222C3CCA007DE658 /* gift2.png */,
+				BF2BEEE0222C3CCA007DE658 /* gift3.png */,
+				BF2BEEE1222C3CCA007DE658 /* gift4.png */,
+				BF2BEEE2222C3CCA007DE658 /* gift5.png */,
+				BF2BEEE3222C3CCA007DE658 /* gift6.png */,
+				BF2BEEE4222C3CCA007DE658 /* gift7.png */,
+				BF2BEEE5222C3CCA007DE658 /* gift8.png */,
+				BF2BEEE6222C3CCA007DE658 /* ic_blueheart@2x.png */,
+				BF2BEEE7222C3CCA007DE658 /* ic_blueheart@3x.png */,
+				BF2BEEE8222C3CCA007DE658 /* ic_chat@2x.png */,
+				BF2BEEE9222C3CCA007DE658 /* ic_chat@3x.png */,
+				BF2BEEEA222C3CCA007DE658 /* ic_chat_press@2x.png */,
+				BF2BEEEB222C3CCA007DE658 /* ic_chat_press@3x.png */,
+				BF2BEEEC222C3CCA007DE658 /* ic_close@2x.png */,
+				BF2BEEED222C3CCA007DE658 /* ic_close@3x.png */,
+				BF2BEEEE222C3CCA007DE658 /* ic_close_press@2x.png */,
+				BF2BEEEF222C3CCA007DE658 /* ic_close_press@3x.png */,
+				BF2BEEF0222C3CCA007DE658 /* ic_gift@2x.png */,
+				BF2BEEF1222C3CCA007DE658 /* ic_gift@3x.png */,
+				BF2BEEF2222C3CCA007DE658 /* ic_gift_press@2x.png */,
+				BF2BEEF3222C3CCA007DE658 /* ic_gift_press@3x.png */,
+				BF2BEEF4222C3CCA007DE658 /* ic_greenheart@2x.png */,
+				BF2BEEF5222C3CCA007DE658 /* ic_greenheart@3x.png */,
+				BF2BEEF6222C3CCA007DE658 /* ic_location@2x.png */,
+				BF2BEEF7222C3CCA007DE658 /* ic_location@3x.png */,
+				BF2BEEF8222C3CCA007DE658 /* ic_orangeheart@2x.png */,
+				BF2BEEF9222C3CCA007DE658 /* ic_orangeheart@3x.png */,
+				BF2BEEFA222C3CCA007DE658 /* ic_pinkheart@2x.png */,
+				BF2BEEFB222C3CCA007DE658 /* ic_pinkheart@3x.png */,
+				BF2BEEFC222C3CCA007DE658 /* ic_purpleheart@2x.png */,
+				BF2BEEFD222C3CCA007DE658 /* ic_purpleheart@3x.png */,
+				BF2BEEFE222C3CCA007DE658 /* ic_share@2x.png */,
+				BF2BEEFF222C3CCA007DE658 /* ic_share@3x.png */,
+				BF2BEF00222C3CCA007DE658 /* ic_share_press@2x.png */,
+				BF2BEF01222C3CCA007DE658 /* ic_share_press@3x.png */,
+				BF2BEF02222C3CCA007DE658 /* ic_shooting_star_barrage@2x.png */,
+				BF2BEF03222C3CCA007DE658 /* ic_shooting_star_barrage@3x.png */,
+				BF2BEF04222C3CCA007DE658 /* ic_yellowheart@2x.png */,
+				BF2BEF05222C3CCA007DE658 /* ic_yellowheart@3x.png */,
+				BF2BEF06222C3CCA007DE658 /* logic_icon.png */,
+				BF2BEF07222C3CCA007DE658 /* myAvatarBig.png */,
+				BF2BEF08222C3CCA007DE658 /* myAvatarSmall.png */,
+				BF2BEF09222C3CCA007DE658 /* qq.png */,
+				BF2BEF0A222C3CCA007DE658 /* sina.png */,
+				BF2BEF0B222C3CCA007DE658 /* wechat.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		BF2BEF0C222C3CCA007DE658 /* TableTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF0D222C3CCA007DE658 /* Template */,
+			);
+			path = TableTemplate;
+			sourceTree = "<group>";
+		};
+		BF2BEF0D222C3CCA007DE658 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+		BF2BEF0E222C3CCA007DE658 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF0F222C3CCA007DE658 /* ZYServiceEventUntil.h */,
+				BF2BEF10222C3CCA007DE658 /* ZYServiceEventUntil.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BF2BEF45222C3CE1007DE658 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF46222C3CE1007DE658 /* ZYDaoEventUntil.h */,
+				BF2BEF47222C3CE1007DE658 /* ZYDaoEventUntil.m */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		BF2BEF49222C3CF7007DE658 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF4A222C3CF7007DE658 /* Home */,
+				BF2BEF5D222C3CF7007DE658 /* LiveStream */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BF2BEF4A222C3CF7007DE658 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF4B222C3CF7007DE658 /* Model */,
+				BF2BEF4E222C3CF7007DE658 /* Presenters */,
+				BF2BEF55222C3CF7007DE658 /* ViewControllers */,
+				BF2BEF58222C3CF7007DE658 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BF2BEF4B222C3CF7007DE658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF4C222C3CF7007DE658 /* ZYChannelProfile.h */,
+				BF2BEF4D222C3CF7007DE658 /* ZYChannelProfile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF2BEF4E222C3CF7007DE658 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF4F222C3CF7007DE658 /* ZYHomeAdapter.h */,
+				BF2BEF50222C3CF7007DE658 /* ZYHomeAdapter.m */,
+				BF2BEF51222C3CF7007DE658 /* ZYHomeInteractor.h */,
+				BF2BEF52222C3CF7007DE658 /* ZYHomeInteractor.m */,
+				BF2BEF53222C3CF7007DE658 /* ZYHomePresenter.h */,
+				BF2BEF54222C3CF7007DE658 /* ZYHomePresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		BF2BEF55222C3CF7007DE658 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF56222C3CF7007DE658 /* ZYHomeViewController.h */,
+				BF2BEF57222C3CF7007DE658 /* ZYHomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF2BEF58222C3CF7007DE658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF59222C3CF7007DE658 /* ZYHomeTableViewCell.h */,
+				BF2BEF5A222C3CF7007DE658 /* ZYHomeTableViewCell.m */,
+				BF2BEF5B222C3CF7007DE658 /* ZYHomeView.h */,
+				BF2BEF5C222C3CF7007DE658 /* ZYHomeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF2BEF5D222C3CF7007DE658 /* LiveStream */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF5E222C3CF7007DE658 /* Model */,
+				BF2BEF65222C3CF7007DE658 /* Presenters */,
+				BF2BEF6E222C3CF7007DE658 /* ViewControllers */,
+				BF2BEF73222C3CF7007DE658 /* Views */,
+			);
+			path = LiveStream;
+			sourceTree = "<group>";
+		};
+		BF2BEF5E222C3CF7007DE658 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF5F222C3CF7007DE658 /* ZYLiveStreamChannelMessage.h */,
+				BF2BEF60222C3CF7007DE658 /* ZYLiveStreamChannelMessage.m */,
+				BF2BEF61222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.h */,
+				BF2BEF62222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.m */,
+				BF2BEF63222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.h */,
+				BF2BEF64222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF2BEF65222C3CF7007DE658 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF66222C3CF7007DE658 /* ZYLiveStreamAdapter.h */,
+				BF2BEF67222C3CF7007DE658 /* ZYLiveStreamAdapter.m */,
+				BF2BEF68222C3CF7007DE658 /* ZYLiveStreamInteractor.h */,
+				BF2BEF69222C3CF7007DE658 /* ZYLiveStreamInteractor.m */,
+				BF2BEF6A222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.h */,
+				BF2BEF6B222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.m */,
+				BF2BEF6C222C3CF7007DE658 /* ZYLiveStreamPresenter.h */,
+				BF2BEF6D222C3CF7007DE658 /* ZYLiveStreamPresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		BF2BEF6E222C3CF7007DE658 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF6F222C3CF7007DE658 /* ZYLiveStreamViewController.h */,
+				BF2BEF70222C3CF7007DE658 /* ZYLiveStreamViewController.m */,
+				BF2BEF71222C3CF7007DE658 /* ZYLiveViewController.h */,
+				BF2BEF72222C3CF7007DE658 /* ZYLiveViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF2BEF73222C3CF7007DE658 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF74222C3CF7007DE658 /* ZYLiveStreamActionView */,
+				BF2BEF77222C3CF7007DE658 /* ZYLiveStreamAvatarListView */,
+				BF2BEF7A222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView */,
+				BF2BEF7F222C3CF7007DE658 /* ZYLiveStreamGiftView */,
+				BF2BEF84222C3CF7007DE658 /* ZYLiveStreamHeartView */,
+				BF2BEF87222C3CF7007DE658 /* ZYLiveStreamInfoView */,
+				BF2BEF8A222C3CF7007DE658 /* ZYLiveStreamInputView */,
+				BF2BEF91222C3CF7007DE658 /* ZYLiveStreamMessageView */,
+				BF2BEF94222C3CF7007DE658 /* ZYLiveStreamShareView */,
+				BF2BEF99222C3CF7007DE658 /* ZYLiveStreamView.h */,
+				BF2BEF9A222C3CF7007DE658 /* ZYLiveStreamView.m */,
+				BF2BEF9B222C3CF7007DE658 /* View */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF2BEF74222C3CF7007DE658 /* ZYLiveStreamActionView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF75222C3CF7007DE658 /* ZYLiveStreamActionView.h */,
+				BF2BEF76222C3CF7007DE658 /* ZYLiveStreamActionView.m */,
+			);
+			path = ZYLiveStreamActionView;
+			sourceTree = "<group>";
+		};
+		BF2BEF77222C3CF7007DE658 /* ZYLiveStreamAvatarListView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF78222C3CF7007DE658 /* ZYLiveStreamAvatarListView.h */,
+				BF2BEF79222C3CF7007DE658 /* ZYLiveStreamAvatarListView.m */,
+			);
+			path = ZYLiveStreamAvatarListView;
+			sourceTree = "<group>";
+		};
+		BF2BEF7A222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF7B222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.h */,
+				BF2BEF7C222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.m */,
+				BF2BEF7D222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.h */,
+				BF2BEF7E222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.m */,
+			);
+			path = ZYLiveStreamGiftSelectionView;
+			sourceTree = "<group>";
+		};
+		BF2BEF7F222C3CF7007DE658 /* ZYLiveStreamGiftView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF80222C3CF7007DE658 /* ZYLiveStreamGiftBanner.h */,
+				BF2BEF81222C3CF7007DE658 /* ZYLiveStreamGiftBanner.m */,
+				BF2BEF82222C3CF7007DE658 /* ZYLiveStreamGiftView.h */,
+				BF2BEF83222C3CF7007DE658 /* ZYLiveStreamGiftView.m */,
+			);
+			path = ZYLiveStreamGiftView;
+			sourceTree = "<group>";
+		};
+		BF2BEF84222C3CF7007DE658 /* ZYLiveStreamHeartView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF85222C3CF7007DE658 /* ZYLiveStreamHeartView.h */,
+				BF2BEF86222C3CF7007DE658 /* ZYLiveStreamHeartView.m */,
+			);
+			path = ZYLiveStreamHeartView;
+			sourceTree = "<group>";
+		};
+		BF2BEF87222C3CF7007DE658 /* ZYLiveStreamInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF88222C3CF7007DE658 /* ZYLiveStreamInfoView.h */,
+				BF2BEF89222C3CF7007DE658 /* ZYLiveStreamInfoView.m */,
+			);
+			path = ZYLiveStreamInfoView;
+			sourceTree = "<group>";
+		};
+		BF2BEF8A222C3CF7007DE658 /* ZYLiveStreamInputView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF8B222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.h */,
+				BF2BEF8C222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.m */,
+				BF2BEF8D222C3CF7007DE658 /* ZYLiveStreamInputView.h */,
+				BF2BEF8E222C3CF7007DE658 /* ZYLiveStreamInputView.m */,
+				BF2BEF8F222C3CF7007DE658 /* ZYLiveStreamTextView.h */,
+				BF2BEF90222C3CF7007DE658 /* ZYLiveStreamTextView.m */,
+			);
+			path = ZYLiveStreamInputView;
+			sourceTree = "<group>";
+		};
+		BF2BEF91222C3CF7007DE658 /* ZYLiveStreamMessageView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF92222C3CF7007DE658 /* ZYLiveStreamTableView.h */,
+				BF2BEF93222C3CF7007DE658 /* ZYLiveStreamTableView.m */,
+			);
+			path = ZYLiveStreamMessageView;
+			sourceTree = "<group>";
+		};
+		BF2BEF94222C3CF7007DE658 /* ZYLiveStreamShareView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF95222C3CF7007DE658 /* ZYLiveStreamShareHolder.h */,
+				BF2BEF96222C3CF7007DE658 /* ZYLiveStreamShareHolder.m */,
+				BF2BEF97222C3CF7007DE658 /* ZYLiveStreamShareView.h */,
+				BF2BEF98222C3CF7007DE658 /* ZYLiveStreamShareView.m */,
+			);
+			path = ZYLiveStreamShareView;
+			sourceTree = "<group>";
+		};
+		BF2BEF9B222C3CF7007DE658 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEF9C222C3CF7007DE658 /* EStreamHeartView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF2BEF9C222C3CF7007DE658 /* EStreamHeartView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EStreamHeartView;
+			sourceTree = "<group>";
+		};
+		BF2BEFBC222C3D25007DE658 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFBD222C3D25007DE658 /* AppConfig.h */,
+				BF2BEFBE222C3D25007DE658 /* Base */,
+				BF2BEFCB222C3D25007DE658 /* CDD */,
+				BF2BEFD0222C3D25007DE658 /* DBConst.h */,
+				BF2BEFD1222C3D25007DE658 /* PrefixHeader.pch */,
+				BF2BEFD2222C3D25007DE658 /* SharedConfig.h */,
+				BF2BEFD3222C3D25007DE658 /* SharedLib */,
+				BF2BF018222C3D25007DE658 /* SharedMacro.h */,
+				BF2BF019222C3D25007DE658 /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BF2BEFBE222C3D25007DE658 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFBF222C3D25007DE658 /* ZYBaseAdapter.h */,
+				BF2BEFC0222C3D25007DE658 /* ZYBaseAdapter.m */,
+				BF2BEFC1222C3D25007DE658 /* ZYBaseCollectionView.h */,
+				BF2BEFC2222C3D25007DE658 /* ZYBaseCollectionView.m */,
+				BF2BEFC3222C3D25007DE658 /* ZYBaseNavigationController.h */,
+				BF2BEFC4222C3D25007DE658 /* ZYBaseNavigationController.m */,
+				BF2BEFC5222C3D25007DE658 /* ZYBasePresenter.h */,
+				BF2BEFC6222C3D25007DE658 /* ZYBasePresenter.m */,
+				BF2BEFC7222C3D25007DE658 /* ZYBaseTableView.h */,
+				BF2BEFC8222C3D25007DE658 /* ZYBaseTableView.m */,
+				BF2BEFC9222C3D25007DE658 /* ZYBaseViewController.h */,
+				BF2BEFCA222C3D25007DE658 /* ZYBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BF2BEFCB222C3D25007DE658 /* CDD */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFCC222C3D25007DE658 /* CDDContext.h */,
+				BF2BEFCD222C3D25007DE658 /* CDDContext.m */,
+				BF2BEFCE222C3D25007DE658 /* NSObject+CDD.h */,
+				BF2BEFCF222C3D25007DE658 /* NSObject+CDD.m */,
+			);
+			path = CDD;
+			sourceTree = "<group>";
+		};
+		BF2BEFD3222C3D25007DE658 /* SharedLib */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFD4222C3D25007DE658 /* FontColor */,
+				BF2BEFE3222C3D25007DE658 /* Masonry */,
+				BF2BEFFE222C3D25007DE658 /* SmoothCurve */,
+				BF2BF003222C3D25007DE658 /* TYAttributedLabel */,
+			);
+			path = SharedLib;
+			sourceTree = "<group>";
+		};
+		BF2BEFD4222C3D25007DE658 /* FontColor */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFD5222C3D25007DE658 /* UIColor+App.h */,
+				BF2BEFD6222C3D25007DE658 /* UIColor+App.m */,
+				BF2BEFD7222C3D25007DE658 /* UIColor+Hex.h */,
+				BF2BEFD8222C3D25007DE658 /* UIColor+Hex.m */,
+				BF2BEFD9222C3D25007DE658 /* UIFont+App.h */,
+				BF2BEFDA222C3D25007DE658 /* UIFont+App.m */,
+				BF2BEFDB222C3D25007DE658 /* UIImageEX.h */,
+				BF2BEFDC222C3D25007DE658 /* UIImageEX.m */,
+				BF2BEFDD222C3D25007DE658 /* UIImageScale.h */,
+				BF2BEFDE222C3D25007DE658 /* UIImageScale.m */,
+				BF2BEFDF222C3D25007DE658 /* UIView+Display.h */,
+				BF2BEFE0222C3D25007DE658 /* UIView+Display.m */,
+				BF2BEFE1222C3D25007DE658 /* UIView+EFrame.h */,
+				BF2BEFE2222C3D25007DE658 /* UIView+EFrame.m */,
+			);
+			path = FontColor;
+			sourceTree = "<group>";
+		};
+		BF2BEFE3222C3D25007DE658 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFE4222C3D25007DE658 /* Info.plist */,
+				BF2BEFE5222C3D25007DE658 /* MASCompositeConstraint.h */,
+				BF2BEFE6222C3D25007DE658 /* MASCompositeConstraint.m */,
+				BF2BEFE7222C3D25007DE658 /* MASConstraint+Private.h */,
+				BF2BEFE8222C3D25007DE658 /* MASConstraint.h */,
+				BF2BEFE9222C3D25007DE658 /* MASConstraint.m */,
+				BF2BEFEA222C3D25007DE658 /* MASConstraintMaker.h */,
+				BF2BEFEB222C3D25007DE658 /* MASConstraintMaker.m */,
+				BF2BEFEC222C3D25007DE658 /* MASLayoutConstraint.h */,
+				BF2BEFED222C3D25007DE658 /* MASLayoutConstraint.m */,
+				BF2BEFEE222C3D25007DE658 /* Masonry.h */,
+				BF2BEFEF222C3D25007DE658 /* MASUtilities.h */,
+				BF2BEFF0222C3D25007DE658 /* MASViewAttribute.h */,
+				BF2BEFF1222C3D25007DE658 /* MASViewAttribute.m */,
+				BF2BEFF2222C3D25007DE658 /* MASViewConstraint.h */,
+				BF2BEFF3222C3D25007DE658 /* MASViewConstraint.m */,
+				BF2BEFF4222C3D25007DE658 /* NSArray+MASAdditions.h */,
+				BF2BEFF5222C3D25007DE658 /* NSArray+MASAdditions.m */,
+				BF2BEFF6222C3D25007DE658 /* NSArray+MASShorthandAdditions.h */,
+				BF2BEFF7222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BF2BEFF8222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BF2BEFF9222C3D25007DE658 /* View+MASAdditions.h */,
+				BF2BEFFA222C3D25007DE658 /* View+MASAdditions.m */,
+				BF2BEFFB222C3D25007DE658 /* View+MASShorthandAdditions.h */,
+				BF2BEFFC222C3D25007DE658 /* ViewController+MASAdditions.h */,
+				BF2BEFFD222C3D25007DE658 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BF2BEFFE222C3D25007DE658 /* SmoothCurve */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFFF222C3D25007DE658 /* CGPointExtension.h */,
+				BF2BF000222C3D25007DE658 /* CGPointExtension.m */,
+				BF2BF001222C3D25007DE658 /* UIBezierPath+Interpolation.h */,
+				BF2BF002222C3D25007DE658 /* UIBezierPath+Interpolation.m */,
+			);
+			path = SmoothCurve;
+			sourceTree = "<group>";
+		};
+		BF2BF003222C3D25007DE658 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BF004222C3D25007DE658 /* NSMutableAttributedString+TY.h */,
+				BF2BF005222C3D25007DE658 /* NSMutableAttributedString+TY.m */,
+				BF2BF006222C3D25007DE658 /* TYAttributedLabel.h */,
+				BF2BF007222C3D25007DE658 /* TYAttributedLabel.m */,
+				BF2BF008222C3D25007DE658 /* TYDrawStorage.h */,
+				BF2BF009222C3D25007DE658 /* TYDrawStorage.m */,
+				BF2BF00A222C3D25007DE658 /* TYImageCache.h */,
+				BF2BF00B222C3D25007DE658 /* TYImageCache.m */,
+				BF2BF00C222C3D25007DE658 /* TYImageStorage.h */,
+				BF2BF00D222C3D25007DE658 /* TYImageStorage.m */,
+				BF2BF00E222C3D25007DE658 /* TYLinkTextStorage.h */,
+				BF2BF00F222C3D25007DE658 /* TYLinkTextStorage.m */,
+				BF2BF010222C3D25007DE658 /* TYTextContainer+Extended.m */,
+				BF2BF011222C3D25007DE658 /* TYTextContainer.h */,
+				BF2BF012222C3D25007DE658 /* TYTextContainer.m */,
+				BF2BF013222C3D25007DE658 /* TYTextStorage.h */,
+				BF2BF014222C3D25007DE658 /* TYTextStorage.m */,
+				BF2BF015222C3D25007DE658 /* TYTextStorageProtocol.h */,
+				BF2BF016222C3D25007DE658 /* TYViewStorage.h */,
+				BF2BF017222C3D25007DE658 /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
+		BF2BF019222C3D25007DE658 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BF581E4E222C33DF00B11C52 = {
+			isa = PBXGroup;
+			children = (
+				BF581E59222C33DF00B11C52 /* ZYLiveFramework */,
+				BF581E72222C33E000B11C52 /* ZYLiveFrameworkTests */,
+				BF581E7D222C33E000B11C52 /* ZYLiveFrameworkUITests */,
+				BF581E58222C33DF00B11C52 /* Products */,
+				22759244D5BD7DE7613B8D84 /* Pods */,
+				4C763D8542B000EAB96B7E4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF581E58222C33DF00B11C52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF581E57222C33DF00B11C52 /* ZYLiveFramework.app */,
+				BF581E6F222C33E000B11C52 /* ZYLiveFrameworkTests.xctest */,
+				BF581E7A222C33E000B11C52 /* ZYLiveFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF581E59222C33DF00B11C52 /* ZYLiveFramework */ = {
+			isa = PBXGroup;
+			children = (
+				BF2BEFBC222C3D25007DE658 /* Common */,
+				BF2BEF49222C3CF7007DE658 /* Application */,
+				BF2BEF45222C3CE1007DE658 /* Dao */,
+				BF2BEED7222C3CCA007DE658 /* Resources */,
+				BF2BEF0E222C3CCA007DE658 /* Service */,
+				BF581E8F222C35C600B11C52 /* Assets.xcassets */,
+				BF581E5A222C33DF00B11C52 /* AppDelegate.h */,
+				BF581E5B222C33DF00B11C52 /* AppDelegate.m */,
+				BF581E5D222C33DF00B11C52 /* ViewController.h */,
+				BF581E5E222C33DF00B11C52 /* ViewController.m */,
+				BF581E60222C33DF00B11C52 /* Main.storyboard */,
+				BF581E65222C33E000B11C52 /* LaunchScreen.storyboard */,
+				BF581E68222C33E000B11C52 /* Info.plist */,
+				BF581E69222C33E000B11C52 /* main.m */,
+			);
+			path = ZYLiveFramework;
+			sourceTree = "<group>";
+		};
+		BF581E72222C33E000B11C52 /* ZYLiveFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF581E73222C33E000B11C52 /* ZYLiveFrameworkTests.m */,
+				BF581E75222C33E000B11C52 /* Info.plist */,
+			);
+			path = ZYLiveFrameworkTests;
+			sourceTree = "<group>";
+		};
+		BF581E7D222C33E000B11C52 /* ZYLiveFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF581E7E222C33E000B11C52 /* ZYLiveFrameworkUITests.m */,
+				BF581E80222C33E000B11C52 /* Info.plist */,
+			);
+			path = ZYLiveFrameworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF581E56222C33DF00B11C52 /* ZYLiveFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF581E83222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFramework" */;
+			buildPhases = (
+				AC24E31C6F53353F0FD62208 /* [CP] Check Pods Manifest.lock */,
+				BF581E53222C33DF00B11C52 /* Sources */,
+				BF581E54222C33DF00B11C52 /* Frameworks */,
+				BF581E55222C33DF00B11C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYLiveFramework;
+			productName = ZYLiveFramework;
+			productReference = BF581E57222C33DF00B11C52 /* ZYLiveFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF581E6E222C33E000B11C52 /* ZYLiveFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF581E86222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFrameworkTests" */;
+			buildPhases = (
+				BD6D698B7AF56AE93F453247 /* [CP] Check Pods Manifest.lock */,
+				BF581E6B222C33E000B11C52 /* Sources */,
+				BF581E6C222C33E000B11C52 /* Frameworks */,
+				BF581E6D222C33E000B11C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF581E71222C33E000B11C52 /* PBXTargetDependency */,
+			);
+			name = ZYLiveFrameworkTests;
+			productName = ZYLiveFrameworkTests;
+			productReference = BF581E6F222C33E000B11C52 /* ZYLiveFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF581E79222C33E000B11C52 /* ZYLiveFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF581E89222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFrameworkUITests" */;
+			buildPhases = (
+				65ED1E1DF913BB99C66B9672 /* [CP] Check Pods Manifest.lock */,
+				BF581E76222C33E000B11C52 /* Sources */,
+				BF581E77222C33E000B11C52 /* Frameworks */,
+				BF581E78222C33E000B11C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF581E7C222C33E000B11C52 /* PBXTargetDependency */,
+			);
+			name = ZYLiveFrameworkUITests;
+			productName = ZYLiveFrameworkUITests;
+			productReference = BF581E7A222C33E000B11C52 /* ZYLiveFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF581E4F222C33DF00B11C52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ZhuYan;
+				TargetAttributes = {
+					BF581E56222C33DF00B11C52 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF581E6E222C33E000B11C52 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF581E56222C33DF00B11C52;
+					};
+					BF581E79222C33E000B11C52 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF581E56222C33DF00B11C52;
+					};
+				};
+			};
+			buildConfigurationList = BF581E52222C33DF00B11C52 /* Build configuration list for PBXProject "ZYLiveFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF581E4E222C33DF00B11C52;
+			productRefGroup = BF581E58222C33DF00B11C52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF581E56222C33DF00B11C52 /* ZYLiveFramework */,
+				BF581E6E222C33E000B11C52 /* ZYLiveFrameworkTests */,
+				BF581E79222C33E000B11C52 /* ZYLiveFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF581E55222C33DF00B11C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2BEF28222C3CCA007DE658 /* ic_gift@2x.png in Resources */,
+				BF2BEF2C222C3CCA007DE658 /* ic_greenheart@2x.png in Resources */,
+				BF2BEF42222C3CCA007DE658 /* sina.png in Resources */,
+				BF2BEF13222C3CCA007DE658 /* avatarSmall.png in Resources */,
+				BF2BEF21222C3CCA007DE658 /* ic_chat@3x.png in Resources */,
+				BF2BEF1E222C3CCA007DE658 /* ic_blueheart@2x.png in Resources */,
+				BF2BEF18222C3CCA007DE658 /* gift3.png in Resources */,
+				BF2BEF15222C3CCA007DE658 /* gift0.png in Resources */,
+				BF2BF029222C3D25007DE658 /* Info.plist in Resources */,
+				BF2BEF2E222C3CCA007DE658 /* ic_location@2x.png in Resources */,
+				BF2BEF1A222C3CCA007DE658 /* gift5.png in Resources */,
+				BF2BEF34222C3CCA007DE658 /* ic_purpleheart@2x.png in Resources */,
+				BF2BEF1F222C3CCA007DE658 /* ic_blueheart@3x.png in Resources */,
+				BF2BEF17222C3CCA007DE658 /* gift2.png in Resources */,
+				BF581E67222C33E000B11C52 /* LaunchScreen.storyboard in Resources */,
+				BF2BEF3C222C3CCA007DE658 /* ic_yellowheart@2x.png in Resources */,
+				BF2BEF19222C3CCA007DE658 /* gift4.png in Resources */,
+				BF581E95222C35C700B11C52 /* Assets.xcassets in Resources */,
+				BF2BEF37222C3CCA007DE658 /* ic_share@3x.png in Resources */,
+				BF2BEF38222C3CCA007DE658 /* ic_share_press@2x.png in Resources */,
+				BF2BEF23222C3CCA007DE658 /* ic_chat_press@3x.png in Resources */,
+				BF2BEF3E222C3CCA007DE658 /* logic_icon.png in Resources */,
+				BF2BEF3A222C3CCA007DE658 /* ic_shooting_star_barrage@2x.png in Resources */,
+				BF2BEF12222C3CCA007DE658 /* avatarBig2.png in Resources */,
+				BF2BEF25222C3CCA007DE658 /* ic_close@3x.png in Resources */,
+				BF2BEF2B222C3CCA007DE658 /* ic_gift_press@3x.png in Resources */,
+				BF2BEF24222C3CCA007DE658 /* ic_close@2x.png in Resources */,
+				BF2BEF16222C3CCA007DE658 /* gift1.png in Resources */,
+				BF2BEF1B222C3CCA007DE658 /* gift6.png in Resources */,
+				BF2BEF43222C3CCA007DE658 /* wechat.png in Resources */,
+				BF2BEF3F222C3CCA007DE658 /* myAvatarBig.png in Resources */,
+				BF2BEF26222C3CCA007DE658 /* ic_close_press@2x.png in Resources */,
+				BF2BEF3B222C3CCA007DE658 /* ic_shooting_star_barrage@3x.png in Resources */,
+				BF2BEF22222C3CCA007DE658 /* ic_chat_press@2x.png in Resources */,
+				BF2BEF36222C3CCA007DE658 /* ic_share@2x.png in Resources */,
+				BF2BEF41222C3CCA007DE658 /* qq.png in Resources */,
+				BF2BEF2A222C3CCA007DE658 /* ic_gift_press@2x.png in Resources */,
+				BF2BEF39222C3CCA007DE658 /* ic_share_press@3x.png in Resources */,
+				BF2BEF3D222C3CCA007DE658 /* ic_yellowheart@3x.png in Resources */,
+				BF2BEF35222C3CCA007DE658 /* ic_purpleheart@3x.png in Resources */,
+				BF2BEF2F222C3CCA007DE658 /* ic_location@3x.png in Resources */,
+				BF2BEF31222C3CCA007DE658 /* ic_orangeheart@3x.png in Resources */,
+				BF2BEF40222C3CCA007DE658 /* myAvatarSmall.png in Resources */,
+				BF2BEF11222C3CCA007DE658 /* avatarBig.png in Resources */,
+				BF2BEF32222C3CCA007DE658 /* ic_pinkheart@2x.png in Resources */,
+				BF2BEF14222C3CCA007DE658 /* avatarSmall2.png in Resources */,
+				BF2BEF27222C3CCA007DE658 /* ic_close_press@3x.png in Resources */,
+				BF2BEF1C222C3CCA007DE658 /* gift7.png in Resources */,
+				BF2BEF1D222C3CCA007DE658 /* gift8.png in Resources */,
+				BF2BEF2D222C3CCA007DE658 /* ic_greenheart@3x.png in Resources */,
+				BF581E62222C33DF00B11C52 /* Main.storyboard in Resources */,
+				BF2BEF20222C3CCA007DE658 /* ic_chat@2x.png in Resources */,
+				BF2BEF30222C3CCA007DE658 /* ic_orangeheart@2x.png in Resources */,
+				BF2BEF33222C3CCA007DE658 /* ic_pinkheart@3x.png in Resources */,
+				BF2BEF29222C3CCA007DE658 /* ic_gift@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E6D222C33E000B11C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E78222C33E000B11C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65ED1E1DF913BB99C66B9672 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYLiveFrameworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC24E31C6F53353F0FD62208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYLiveFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6D698B7AF56AE93F453247 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYLiveFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF581E53222C33DF00B11C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2BF03C222C3D25007DE658 /* TYTextContainer+Extended.m in Sources */,
+				BF581E5F222C33DF00B11C52 /* ViewController.m in Sources */,
+				BF2BEFB5222C3CF7007DE658 /* ZYLiveStreamBulletSwitch.m in Sources */,
+				BF2BEFAC222C3CF7007DE658 /* ZYLiveViewController.m in Sources */,
+				BF2BF02F222C3D25007DE658 /* MASViewConstraint.m in Sources */,
+				BF2BEFAD222C3CF7007DE658 /* ZYLiveStreamActionView.m in Sources */,
+				BF2BF037222C3D25007DE658 /* TYAttributedLabel.m in Sources */,
+				BF2BF038222C3D25007DE658 /* TYDrawStorage.m in Sources */,
+				BF2BF02A222C3D25007DE658 /* MASCompositeConstraint.m in Sources */,
+				BF2BEFA3222C3CF7007DE658 /* ZYHomeView.m in Sources */,
+				BF2BF031222C3D25007DE658 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BF2BF032222C3D25007DE658 /* View+MASAdditions.m in Sources */,
+				BF2BEFAE222C3CF7007DE658 /* ZYLiveStreamAvatarListView.m in Sources */,
+				BF2BF02D222C3D25007DE658 /* MASLayoutConstraint.m in Sources */,
+				BF2BF036222C3D25007DE658 /* NSMutableAttributedString+TY.m in Sources */,
+				BF2BEFBB222C3CF7007DE658 /* ZYLiveStreamView.m in Sources */,
+				BF2BF021222C3D25007DE658 /* NSObject+CDD.m in Sources */,
+				BF2BEFA1222C3CF7007DE658 /* ZYHomeViewController.m in Sources */,
+				BF2BF023222C3D25007DE658 /* UIColor+Hex.m in Sources */,
+				BF2BEFAA222C3CF7007DE658 /* ZYLiveStreamPresenter.m in Sources */,
+				BF2BEFB4222C3CF7007DE658 /* ZYLiveStreamInfoView.m in Sources */,
+				BF2BEFAB222C3CF7007DE658 /* ZYLiveStreamViewController.m in Sources */,
+				BF2BEF48222C3CE1007DE658 /* ZYDaoEventUntil.m in Sources */,
+				BF2BEFB9222C3CF7007DE658 /* ZYLiveStreamShareHolder.m in Sources */,
+				BF2BF01D222C3D25007DE658 /* ZYBasePresenter.m in Sources */,
+				BF2BF01A222C3D25007DE658 /* ZYBaseAdapter.m in Sources */,
+				BF2BEFA8222C3CF7007DE658 /* ZYLiveStreamInteractor.m in Sources */,
+				BF2BF028222C3D25007DE658 /* UIView+EFrame.m in Sources */,
+				BF2BF01B222C3D25007DE658 /* ZYBaseCollectionView.m in Sources */,
+				BF2BEFB2222C3CF7007DE658 /* ZYLiveStreamGiftView.m in Sources */,
+				BF2BF03D222C3D25007DE658 /* TYTextContainer.m in Sources */,
+				BF2BEFA6222C3CF7007DE658 /* ZYLiveStreamLikeChannelMessage.m in Sources */,
+				BF2BEFA9222C3CF7007DE658 /* ZYLiveStreamPresenter+Gift.m in Sources */,
+				BF2BF03E222C3D25007DE658 /* TYTextStorage.m in Sources */,
+				BF2BEFAF222C3CF7007DE658 /* ZYLiveStreamGiftSelectionHolder.m in Sources */,
+				BF2BF01F222C3D25007DE658 /* ZYBaseViewController.m in Sources */,
+				BF2BF03B222C3D25007DE658 /* TYLinkTextStorage.m in Sources */,
+				BF2BEFB1222C3CF7007DE658 /* ZYLiveStreamGiftBanner.m in Sources */,
+				BF2BEFA2222C3CF7007DE658 /* ZYHomeTableViewCell.m in Sources */,
+				BF2BF02E222C3D25007DE658 /* MASViewAttribute.m in Sources */,
+				BF2BEF44222C3CCA007DE658 /* ZYServiceEventUntil.m in Sources */,
+				BF2BF024222C3D25007DE658 /* UIFont+App.m in Sources */,
+				BF2BEFA5222C3CF7007DE658 /* ZYLiveStreamGiftChannelMessage.m in Sources */,
+				BF2BF034222C3D25007DE658 /* CGPointExtension.m in Sources */,
+				BF2BF03A222C3D25007DE658 /* TYImageStorage.m in Sources */,
+				BF2BEFA0222C3CF7007DE658 /* ZYHomePresenter.m in Sources */,
+				BF2BEFB6222C3CF7007DE658 /* ZYLiveStreamInputView.m in Sources */,
+				BF2BF030222C3D25007DE658 /* NSArray+MASAdditions.m in Sources */,
+				BF2BEFB3222C3CF7007DE658 /* ZYLiveStreamHeartView.m in Sources */,
+				BF581E6A222C33E000B11C52 /* main.m in Sources */,
+				BF581E5C222C33DF00B11C52 /* AppDelegate.m in Sources */,
+				BF2BF026222C3D25007DE658 /* UIImageScale.m in Sources */,
+				BF2BEFA7222C3CF7007DE658 /* ZYLiveStreamAdapter.m in Sources */,
+				BF2BEFB0222C3CF7007DE658 /* ZYLiveStreamGiftSelectionView.m in Sources */,
+				BF2BF033222C3D25007DE658 /* ViewController+MASAdditions.m in Sources */,
+				BF2BF025222C3D25007DE658 /* UIImageEX.m in Sources */,
+				BF2BF039222C3D25007DE658 /* TYImageCache.m in Sources */,
+				BF2BEFB7222C3CF7007DE658 /* ZYLiveStreamTextView.m in Sources */,
+				BF2BF02C222C3D25007DE658 /* MASConstraintMaker.m in Sources */,
+				BF2BEF9D222C3CF7007DE658 /* ZYChannelProfile.m in Sources */,
+				BF2BF020222C3D25007DE658 /* CDDContext.m in Sources */,
+				BF2BEF9E222C3CF7007DE658 /* ZYHomeAdapter.m in Sources */,
+				BF2BEF9F222C3CF7007DE658 /* ZYHomeInteractor.m in Sources */,
+				BF2BEFA4222C3CF7007DE658 /* ZYLiveStreamChannelMessage.m in Sources */,
+				BF2BEFB8222C3CF7007DE658 /* ZYLiveStreamTableView.m in Sources */,
+				BF2BF01E222C3D25007DE658 /* ZYBaseTableView.m in Sources */,
+				BF2BEFBA222C3CF7007DE658 /* ZYLiveStreamShareView.m in Sources */,
+				BF2BF027222C3D25007DE658 /* UIView+Display.m in Sources */,
+				BF2BF035222C3D25007DE658 /* UIBezierPath+Interpolation.m in Sources */,
+				BF2BF03F222C3D25007DE658 /* TYViewStorage.m in Sources */,
+				BF2BF022222C3D25007DE658 /* UIColor+App.m in Sources */,
+				BF2BF02B222C3D25007DE658 /* MASConstraint.m in Sources */,
+				BF2BF01C222C3D25007DE658 /* ZYBaseNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E6B222C33E000B11C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF581E74222C33E000B11C52 /* ZYLiveFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF581E76222C33E000B11C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF581E7F222C33E000B11C52 /* ZYLiveFrameworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF581E71222C33E000B11C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF581E56222C33DF00B11C52 /* ZYLiveFramework */;
+			targetProxy = BF581E70222C33E000B11C52 /* PBXContainerItemProxy */;
+		};
+		BF581E7C222C33E000B11C52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF581E56222C33DF00B11C52 /* ZYLiveFramework */;
+			targetProxy = BF581E7B222C33E000B11C52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF581E60222C33DF00B11C52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF581E61222C33DF00B11C52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF581E65222C33E000B11C52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF581E66222C33E000B11C52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF581E81222C33E000B11C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF581E82222C33E000B11C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF581E84222C33E000B11C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA7ADB6C50942A358C7656B /* Pods-ZYLiveFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYLiveFramework/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYLiveFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF581E85222C33E000B11C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79432CC3C4CFFD515069F7A9 /* Pods-ZYLiveFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYLiveFramework/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYLiveFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF581E87222C33E000B11C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCA8EE8554180DCB096C8CE /* Pods-ZYLiveFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				INFOPLIST_FILE = ZYLiveFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYLiveFramework.app/ZYLiveFramework";
+			};
+			name = Debug;
+		};
+		BF581E88222C33E000B11C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A46E75DFD4D06445DB762A /* Pods-ZYLiveFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				INFOPLIST_FILE = ZYLiveFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYLiveFramework.app/ZYLiveFramework";
+			};
+			name = Release;
+		};
+		BF581E8A222C33E000B11C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FFF76A996AB8DA7EDAD0A8 /* Pods-ZYLiveFrameworkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				INFOPLIST_FILE = ZYLiveFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYLiveFramework;
+			};
+			name = Debug;
+		};
+		BF581E8B222C33E000B11C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E672C2422FEAE92B6740D6A0 /* Pods-ZYLiveFrameworkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PKCEWUW6Z4;
+				INFOPLIST_FILE = ZYLiveFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZY.ZYLiveFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYLiveFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF581E52222C33DF00B11C52 /* Build configuration list for PBXProject "ZYLiveFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF581E81222C33E000B11C52 /* Debug */,
+				BF581E82222C33E000B11C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF581E83222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF581E84222C33E000B11C52 /* Debug */,
+				BF581E85222C33E000B11C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF581E86222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF581E87222C33E000B11C52 /* Debug */,
+				BF581E88222C33E000B11C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF581E89222C33E000B11C52 /* Build configuration list for PBXNativeTarget "ZYLiveFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF581E8A222C33E000B11C52 /* Debug */,
+				BF581E8B222C33E000B11C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF581E4F222C33DF00B11C52 /* Project object */;
+}
